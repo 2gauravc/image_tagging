@@ -2,10 +2,7 @@ import requests, json
 import getopt, sys
 import config
 
-def upload_imagga(image_path): 
-        #api_key = 'acc_43a212cace97cc9'
-	#api_secret = 'a91461f1c5022a79b419f453e6a14aff'
- 		
+def upload_imagga(image_path):        	
 	response = requests.post('https://api.imagga.com/v2/uploads',
                                  auth=(config.api_key, config.api_secret),
                                  files={'image': open(image_path, 'rb')})
