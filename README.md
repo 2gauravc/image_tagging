@@ -6,7 +6,7 @@ author: "Data Smart"
 
 ## About
 
-This repo is to tag images using computer vision APIs provided by (Imagga)[https://imagga.com/] 
+This repo is to tag images using computer vision APIs provided by [Imagga](https://imagga.com/)
 
 What is Imagga image tagging?
 
@@ -51,7 +51,7 @@ First, create an account on Imagga. Login to the account and go to the Dashboard
 
 Take note of the API KEY and SECRET. This is like your username and password. Note that you need the API Key and SECRET to access the API.
 
-### Update the config.py file with your API KEY and SECRET
+### Create the config.py file with your API KEY and SECRET
 
 You need to create a file called config.py with your API KEY and SECRET in the rep home folder - this is where the code file tagging.py exists. 
 
