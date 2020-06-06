@@ -57,7 +57,7 @@ You need to create a file called config.py with your API KEY and SECRET in the r
 
 Paste this into the config.py file. Update the file with your API KEY and SECRET. 
 
-api_key="YOUR_API_KEY"
+api_key="YOUR_API_KEY"      
 api_secret = "YOUR_API_SECRET"
 
 ## Running the Code 
